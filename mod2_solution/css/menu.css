@@ -1,0 +1,78 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+  
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+/********** Menu styles **********/
+.container {
+    background-color: #999999;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 10px;
+}
+
+.title {
+    position: relative;
+    border: 1px solid black;
+    top: -1px;
+    right: -1px;
+    font-size: 1.25em;
+    padding: 5px 50px;
+    margin: 0px 0px 20px 0px;
+    float: right;
+}
+
+.title-color-1 {
+    background-color: #d59898;
+    color: black;
+}
+
+.title-color-2 {
+    background-color: #c14543;
+    color: white;
+}
+
+.title-color-3 {
+    background-color: #e4d7b3;
+    color: black;
+}
+
+.content {
+    clear: both;
+    margin: 20px;
+}
+
+/********** Responsive View **********/
+/********** Desktop View **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.3%;
+    }
+}
+  
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+  
+/********** Mobile view **********/
+@media (max-width: 767px){
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
